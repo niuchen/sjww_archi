@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title></title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b class="i18n-elementtype-DiagramModelNote"></b>
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelNote"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelNote" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+                       <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-content"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none">&#32479;&#19968;TOKEN,
+1.&#38646;&#21806;&#31995;&#32479;&#20445;&#30041;&#30331;&#24405;&#21151;&#33021;,&#20294;&#26159;JWT&#30340;&#39041;&#21457;&#25913;&#20026;&#30001;CT&#31995;&#32479;&#30331;&#24405;&#25509;&#21475;
+      &#38656;&#35201;&#20570;&#25509;&#21475;&#35843;&#29992;&#23433;&#20840;&#35774;&#35745;.
+      &#38656;&#35201;&#20004;&#31995;&#32479;&#36134;&#21495;&#23494;&#30721;&#21516;&#27493;,&#21516;&#27493;&#21518;CT&#30331;&#24405;&#25509;&#21475;&#25165;&#21487;&#20197;&#25104;&#21151;&#36820;&#22238;token.  
+      &#38656;&#35201;&#25216;&#26415;&#35782;&#21035;&#38646;&#21806;&#31995;&#32479;JWT&#30340;&#29983;&#20135;&#35268;&#21017;&#21644;&#19994;&#21153;&#20869;&#30340;&#35299;&#23494;&#24212;&#29992;,&#22914;:&#26159;&#21542;&#23384;&#22312;&#24378;&#34892;&#35299;&#26512;JWT&#30340;&#26041;&#27861;&#21644;&#36923;&#36753;,&#36824;&#26159;&#32479;&#19968;&#25509;&#21475;&#25110;&#26041;&#27861;&#35299;&#26512;JWT
+      &#38656;&#35201;&#39044;&#30740;&#20102;&#35299;&#38646;&#21806;&#31995;&#32479;JWT&#30340;&#23384;&#20648;&#21644;&#24212;&#29992;
+
+&#32479;&#19968;&#36134;&#21495;
+1.&#38646;&#21806;&#31995;&#32479;&#20445;&#30041;&#36134;&#21495;&#20307;&#31995;,&#36134;&#21495;&#21151;&#33021;&#19982;CT&#36134;&#21495;&#21516;&#27493;. 
+    &#21487;&#32771;&#34385;&#21333;&#39033;&#21516;&#27493;: &#38646;&#21806;&#31995;&#32479;&#20026;&#20027;,&#21333;&#39033;&#35843;&#29992;YST&#36134;&#21495;&#25509;&#21475;&#21516;&#27493;.     &#38646;&#21806;&#31995;&#32479;&#36134;&#21495;,&#38656;&#35201;YST&#31995;&#32479;&#20013;&#21019;&#24314;&#20986;&#26469;CT&#36134;&#21495;,&#21592;&#24037;.&#35282;&#33394;
+    &#38656;&#35201;&#32771;&#34385;&#31995;&#32479;&#38388;&#25509;&#21475;&#35843;&#29992;&#23433;&#20840;
+    &#38656;&#35201;&#32771;&#34385;&#31995;&#32479;&#38388;&#35843;&#29992;&#26041;&#26696;.
+    </textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
